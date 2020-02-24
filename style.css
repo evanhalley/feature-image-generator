@@ -1,0 +1,62 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#container {
+    flex: 1;
+    display: flex; 
+    flex-direction: column; 
+    background-color: #3b3d42;
+    padding: 25px;
+    color: #FFFFFF;
+    box-shadow: 7px 7px grey;
+    border-radius: 7px;
+}
+
+#outer {
+    flex: 1;
+    display: flex; 
+    flex-direction: column; 
+    background-color: #FFFFFF;
+    padding: 25px;
+}
+
+#body {
+    flex-grow: 1; 
+    font-size: 4rem; 
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    line-height: 6rem;
+}
+#footer {
+    display: flex; 
+    flex-grow: 0; 
+    flex-direction: row; 
+    align-items: center; 
+}
+#author {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#author-img {
+    width: 75px; 
+    height: 75px; 
+    margin-right: 25px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+#author-name {
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+#brand-icon {
+    width: 75px;
+    height: 75px;
+    border: 2px solid #FFFFFF;
+}
